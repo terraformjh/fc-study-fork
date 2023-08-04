@@ -74,6 +74,23 @@ public A zone에 Ec2 생성 - jenkins 설치
 ---
 ---
 ### Clip 6 - 컨테이너 기반의 애플리케이션을 ECS Fargate에서 운영
+
+### Clip6 사전준비 - 본인의 github 계정 생성.
+>- https://github.com/azjaehyun/fc-study - Git Fork ( 본인 github 준비 )
+>>- 해당 git fork는 jenkins pipeline 코드에서 사용. 
+>>- git fork clone 후에 아래 명령 실행
+>-  git config --global user.name {your_github_id}
+>>-  git remote set-url origin https://{your_github_id}:{your_token}@github.com/{your_github_address}
+>- 각 서비스별 task.json 파일 변경 ( 본인의 account id로 변경 )
+>>- react-front-service.json
+>>- application-back-service.json
+>>- jobposting-back-service.json
+>- jenkins pipeline code 체크
+
+
+
+
+
 - [application-back guide REAME.md 참조](https://github.com/azjaehyun/fc-study/tree/main/chapter-6/final-lab/application-back)
 - [jobposting-back guide REAME.md 참조](https://github.com/azjaehyun/fc-study/tree/main/chapter-6/final-lab/jobposting-back)
 - [react-front guide REAME.md 참조](https://github.com/azjaehyun/fc-study/tree/main/chapter-6/final-lab/react-front)
