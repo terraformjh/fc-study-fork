@@ -19,7 +19,7 @@ import type { Configuration } from './configuration';
 import type { AxiosPromise, AxiosInstance, AxiosRequestConfig } from 'axios';
 import globalAxios from 'axios';
 
-export const BASE_PATH = "http://final-alb-9c0c5c237deac145.elb.ap-northeast-2.amazonaws.com:8080".replace(/\/+$/, "");
+export const BASE_PATH = "http://final-lb-e201c145d04ca53d.elb.ap-northeast-2.amazonaws.com:8080".replace(/\/+$/, "");
 
 /**
  *
