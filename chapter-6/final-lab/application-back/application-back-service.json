@@ -5,7 +5,7 @@
     {
       "portMappings": [
         {
-          "hostPort": 8080,
+          "hostPort": 0,
           "containerPort": 8080,
           "protocol": "tcp",
           "appProtocol": "http"
